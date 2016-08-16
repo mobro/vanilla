@@ -2,7 +2,7 @@
 
 autoload -Uz promptinit
 promptinit
-prompt clint
+prompt walters
 
 setopt histignorealldups sharehistory
 
