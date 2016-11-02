@@ -14,7 +14,7 @@ set cindent
 set list
 set expandtab
 set smarttab
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
@@ -28,6 +28,7 @@ Bundle 'Valloric/YouCompleteMe.git'
 Bundle 'scrooloose/syntastic.git'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'vim-scripts/c.vim.git'
+Bundle 'altercation/vim-colors-solarized.git'
 Bundle 'slindberg/vim-colors-smyck.git'
 "vim-scipts repos
 Bundle 'L9'
