@@ -15,26 +15,29 @@ set list
 set expandtab
 set smarttab
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 "Orginal repos on github
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup',{'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
-Bundle 'Valloric/YouCompleteMe.git'
-Bundle 'scrooloose/syntastic.git'
-Bundle 'scrooloose/nerdtree.git'
-Bundle 'vim-scripts/c.vim.git'
-Bundle 'altercation/vim-colors-solarized.git'
-Bundle 'slindberg/vim-colors-smyck.git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'rstacruz/sparkup',{'rtp': 'vim/'}
+Plugin 'tpope/vim-rails.git'
+"Plugin 'Valloric/YouCompleteMe.git'
+Plugin 'scrooloose/syntastic.git'
+Plugin 'scrooloose/nerdtree.git'
+Plugin 'vim-scripts/c.vim.git'
+Plugin 'altercation/vim-colors-solarized.git'
+Plugin 'slindberg/vim-colors-smyck.git'
 "vim-scipts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+Plugin 'L9'
+Plugin 'FuzzyFinder'
 "non github repos
-Bundle 'git://git.wincent.com/command-t.git'
+"Plugin 'git://git.wincent.com/command-t.git'
+
+"All of your Plugins must be added before the following line
+call vundle#end()
 
 filetype plugin indent on
 filetype plugin on
